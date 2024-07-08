@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("title").textContent = "My Experience";
         document.getElementById("subtitle").textContent = "Curiosity is one of my best virtues.";
         document.getElementById("description-one-landing").textContent = "Thanks to my curiosity, I have explored various areas that have shaped my professional career. I specialize in market research and analysis, formulation and development of strategies for digital products, encompassing marketing, sales, brand design, product design, leading ecommerce projects, experience design, UI design, and front-end development.";
-        document.getElementById("subtitle-one-landing").textContent = "Get to know my professional journey!";
+        document.getElementById("title-one-landing").textContent = "Get to know my professional journey!";
         document.getElementById("subtitle-one-landing").textContent = "Let's build together a new stage!";
         document.getElementById("description-thinkOutside").textContent = "Currently, I have the fortune of working at a Digital Marketing Agency, where previously I was able to do freelance work, allowing me to develop my skills in UX/UI Design and continue applying my knowledge in front-end development.";
         document.getElementById("description-santander").textContent = "Working externally for Santander, my job gave me the opportunity to be internalized by the company. Here, I primarily utilized my skills learned in front-end development, participating in digital projects focused on developing applications for current or prospective customers."
