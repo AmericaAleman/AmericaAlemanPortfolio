@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function changeEnglish() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //INDEX HTML
-        document.getElementById("title").textContent = "Hi, I'm América Alemán!"; // Cambia el título a inglés
         document.getElementById("subtitle").textContent = "One of my passions is being able to create solutions with the use of technology."; // Cambia el mensaje a inglés
         document.getElementById("email").textContent = "Email";
         document.getElementById("title-who").textContent = "Who I am?";
@@ -23,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function changeSpanishl() {
         document.documentElement.lang = "es"; // Cambia el atributo lang del HTML a 'es' (español)
         //INDEX HTML
-        document.getElementById("title").textContent = "¡Hola, Soy América Alemán!"; // Restaura el título a español
         document.getElementById("subtitle").textContent = "Una de mis pasiones es poder crear soluciones con el uso de la tecnologÍa."; // Restaura el mensaje a español
         document.getElementById("email").textContent = "Correo";
         document.getElementById("title-who").textContent = "¿Quién soy?";

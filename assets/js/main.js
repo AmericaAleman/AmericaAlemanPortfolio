@@ -6,6 +6,11 @@
 
 (function($) {
 
+	$(document).ready(function() {
+		manejarImagenDeFondo();
+		$(window).resize(manejarImagenDeFondo);
+	});
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
@@ -117,72 +122,7 @@
 		});
 
 	// Tiles.
-		var $tiles = $('.tiles > article');
-
-		$tiles.each(function() {
-
-			var $this = $(this),
-				$image = $this.find('.image'), $img = $image.find('img'),
-				$link = $this.find('.link'),
-				x;
-
-			// Image.
-
-				// Set image.
-					$this.css('background-image', 'url(' + $img.attr('src') + ')');
-
-				// Set position.
-					if (x = $img.data('position'))
-						$image.css('background-position', x);
-
-				// Hide original.
-					$image.hide();
-
-			// Link.
-				if ($link.length > 0) {
-
-					$x = $link.clone()
-						.text('')
-						.addClass('primary')
-						.appendTo($this);
-
-					$link = $link.add($x);
-
-					$link.on('click', function(event) {
-
-						var href = $link.attr('href');
-
-						// Prevent default.
-							event.stopPropagation();
-							event.preventDefault();
-
-						// Target blank?
-							if ($link.attr('target') == '_blank') {
-
-								// Open in new tab.
-									window.open(href);
-
-							}
-
-						// Otherwise ...
-							else {
-
-								// Start transitioning.
-									$this.addClass('is-transitioning');
-									$wrapper.addClass('is-transitioning');
-
-								// Redirect.
-									window.setTimeout(function() {
-										location.href = href;
-									}, 500);
-
-							}
-
-					});
-
-				}
-
-		});
+		
 
 	// Header.
 		if ($banner.length > 0
@@ -210,26 +150,24 @@
 		}
 
 	// Banner.
-		$banner.each(function() {
-
-			var $this = $(this),
-				$image = $this.find('.image'), $img = $image.find('img');
-
-			// Parallax.
-				$this._parallax(0.275);
-
-			// Image.
-				if ($image.length > 0) {
-
-					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
-
-					// Hide original.
-						$image.hide();
-
-				}
-
-		});
+	function manejarImagenDeFondo() {
+		var windowWidth = window.innerWidth;
+	
+		// Obtener la imagen original dentro de .image
+		var $image = $banner.find('.image');
+		var $img = $image.find('img');
+	
+		$banner.css('background-image', 'url(' + $img.attr('src') + ')');
+		// Verificar si la ventana es menor a 1200px o no
+		if (windowWidth < 1200) {
+			// Si es menor a 1200px, usar la imagen con el siguiente padding
+			$banner.css('padding', '20em 0 2em 0'); // Ajustar padding según necesidad
+		} else {
+			// Si es mayor  a 1200px, usar la imagen con el siguiente padding
+			$banner.css('padding', '32em 0');
+			
+		}
+	}
 
 	// Menu.
 		var $menu = $('#menu'),
@@ -330,6 +268,6 @@
 					if (event.keyCode == 27)
 						$menu._hide();
 
-			});
+			});			
 
 })(jQuery);
