@@ -161,8 +161,9 @@
 		// Verificar si la ventana es menor a 1200px o no
 		if (windowWidth < 1200) {
 			// Si es menor a 1200px, usar la imagen con el siguiente padding
-			$banner.css('padding', '10em 0 9em 0'); // Ajustar padding según necesidad
-		} else {
+			$banner.css('padding', '8em 0'); // Ajustar padding según necesidad
+		} 
+		else {
 			// Si es mayor  a 1200px, usar la imagen con el siguiente padding
 			$banner.css('padding', '32em 0');
 			
