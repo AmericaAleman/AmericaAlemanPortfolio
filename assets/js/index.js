@@ -6,11 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function changeEnglish() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //INDEX HTML
-        document.getElementById("subtitle").textContent = "One of my passions is being able to create solutions with the use of technology."; // Cambia el mensaje a inglés
         document.getElementById("email").textContent = "Email";
-        document.getElementById("title-who").textContent = "Who I am?";
-        document.getElementById("description-who").textContent = "My experience has led me to specialize digital products, from research, analysis, create and development applications or websites. I am a faithful believer that the good use of technology improves people's lives.";
-        document.getElementById("welcome-who").textContent = "Welcome to my site!, I invite you to learn about my experience and my work in UX/UI design and Front End development!";
+        document.getElementById("welcome-who").textContent = "Welcome to my site!, I invite you to learn about my experience and work in UX/UI design and Front End development.";
+        document.getElementById("description-who").textContent = "I am a Mexican passionate about analyzing digital products, looking for added value and proposing solutions with experiences that are consistent with good functionality. My educational and professional experience has led me to specialize in the creation of digital products.";
+        document.getElementById("subtitle").textContent = "I am a faithful believer that the good use of technology improves people's lives!";
         document.getElementById("experience").textContent = "My Experience";
         document.getElementById("portfolio").textContent = "My Portfolio";
         document.getElementById("hobbies").textContent = "Coming soon!";
@@ -24,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
         //INDEX HTML
         document.getElementById("subtitle").textContent = "Una de mis pasiones es poder crear soluciones con el uso de la tecnologÍa."; // Restaura el mensaje a español
         document.getElementById("email").textContent = "Correo";
-        document.getElementById("title-who").textContent = "¿Quién soy?";
-        document.getElementById("description-who").textContent = "Yo soy América Alemán trayectoria educativa y profesional me han conducido a especializarme en la creación de productos digitales. Estoy profundamente convencida que la tecnología tiene un impacto significativo en la vida de las personas y que, con un uso adecuado, podemos alcanzar nuestros objetivos de manera efectiva.";
-        document.getElementById("welcome-who").textContent = "¡Te doy la bienvenida y te invito a conocer mi experiencia y mi trabajo en diseño UX/UI y desarrollo Front End!";
+        document.getElementById("welcome-who").textContent = "¡Te doy la bienvenida y te invito a navegar para que conozcas mi experiencia y trabajo en diseño UX/UI y desarrollo Front End!";
+        document.getElementById("description-who").textContent = "Soy una Mexicana apasionada en analizar productos digitales, buscar un valor agregado y proponer soluciones con experiencias que vayan de acuerdo a una buena funcionalidad. Mi experiencia educativa y profesional me ha llevado a especializarme en la creación de productos digitales.";
+        document.getElementById("subtitle").textContent = "¡Creo firmemente que la tecnología, con un buen uso, mejora nuestras vidas!";
         document.getElementById("experience").textContent = "Mi Experiencia";
         document.getElementById("portfolio").textContent = "Mi Portafolio";
         document.getElementById("hobbies").textContent = "¡Próximamente!";

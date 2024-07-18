@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //landing html
         document.getElementById("principal-title-landing").textContent = "My Experience";
-        document.getElementById("description-one-landing").textContent = "Thanks to my curiosity, I have explored various areas that have shaped my professional career. I specialize in market research and analysis, formulation and development of strategies for digital products, encompassing marketing, sales, brand design, product design, leading ecommerce projects, experience design, UI design, and front-end development.";
+        document.getElementById("description-one-landing").textContent = "Thanks to my curiosity, I have explored differents areas that have shaped my professional career. I specialize in market research and analysis, formulation and development of strategies for digital products, encompassing marketing, sales, brand design, product design, leading ecommerce projects, UX design, UI design, and front-end development.";
         document.getElementById("title-one-landing").textContent = "Get to know my professional journey!";
         document.getElementById("subtitle-one-landing").textContent = "Let's build together a new stage!";
         document.getElementById("description-thinkOutside").textContent = "Currently, I have the fortune of working at a Digital Marketing Agency, where previously I was able to do freelance work, allowing me to develop my skills in UX/UI Design and continue applying my knowledge in front-end development.";
