@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //landing html
         document.getElementById("principal-title-landing").textContent = "My Experience";
-        document.getElementById("title").textContent = "My Experience";
-        document.getElementById("subtitle").textContent = "Curiosity is one of my best virtues.";
         document.getElementById("description-one-landing").textContent = "Thanks to my curiosity, I have explored various areas that have shaped my professional career. I specialize in market research and analysis, formulation and development of strategies for digital products, encompassing marketing, sales, brand design, product design, leading ecommerce projects, experience design, UI design, and front-end development.";
         document.getElementById("title-one-landing").textContent = "Get to know my professional journey!";
         document.getElementById("subtitle-one-landing").textContent = "Let's build together a new stage!";
@@ -27,8 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "es"; // Cambia el atributo lang del HTML a 'es' (español)
         //landing html
         document.getElementById("principal-title-landing").textContent = "Mi Experiencia";
-        document.getElementById("title").textContent = "Mi Experiencia";
-        document.getElementById("subtitle").textContent = "La curiosidad es una de mis mejores virtudes.";
         document.getElementById("description-one-landing").textContent = "Gracias a mi curiosidad, he explorado diversas áreas que han definido mi carrera profesional. Me especializo en investigación y análisis de mercado, formulación y desarrollo de estrategias para productos digitales, abarcando mercadotecnia, ventas, diseño de marca, diseño de producto, liderazgo de proyectos de ecommerce, diseño de experiencias, diseño UI y desarrollo front-end.";
         document.getElementById("title-one-landing").textContent = "¡Conoce mi recorrido profesional!";
         document.getElementById("subtitle-one-landing").textContent = "¡Construyamos juntos una nueva etapa!";

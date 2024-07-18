@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //generic html
         document.getElementById("principal-title-generic").textContent = "My Portfolio";
-        document.getElementById("title").textContent = "My Portfolio";
-        document.getElementById("subtitle").textContent = "If you find a job you love you'll never work again.";
         document.getElementById("title-one").textContent = "How has my creative process been?";
         document.getElementById("description-one").textContent = "Over the years I have participated in different projects, not in all of them I have had the opportunity to document the processes and developments since they have been confidential, however, I would like to share some of the learnings that have helped me in my professional growth process and why I love my profession.";
         document.getElementById("subtitle-one").textContent = "Be part of my professional history!";
@@ -27,8 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "es"; // Cambia el atributo lang del HTML a 'es' (español)
          //generic html
         document.getElementById("principal-title-generic").textContent = "Mi Portafolio";
-        document.getElementById("title").textContent = "Mi Portafolio";
-        document.getElementById("subtitle").textContent = "Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida.";
         document.getElementById("title-one").textContent = "¿Cómo ha sido mi proceso creativo?";
         document.getElementById("description-one").textContent = "A través de los años he participado en diferentes proyectos, no en todos he tenido la oportunidad de documentar los procesos y desarrollos ya que han sido confidenciales, sin embargo, me gustaría compartir algunos de los aprendizajes que me han ayudado en mi proceso de crecimiento profesional y por las cuales amo mi profesión.";
         document.getElementById("subtitle-one").textContent = "¡Sé parte de mi historia profesional!";
