@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = "en"; // Cambia el atributo lang del HTML a 'en' (inglés)
         //generic html
         document.getElementById("principal-title-generic").textContent = "My Portfolio";
-        document.getElementById("title-one").textContent = "How has my creative process been?";
+        document.getElementById("title-one").textContent = "How has been my creative process?";
         document.getElementById("description-one").textContent = "Over the years I have participated in different projects, not in all of them I have had the opportunity to document the processes and developments since they have been confidential, however, I would like to share some of the learnings that have helped me in my professional growth process and why I love my profession.";
-        document.getElementById("subtitle-one").textContent = "Learning will always open opportunities for you!";
+        document.getElementById("subtitle-one").textContent = "Learning will always open opportunities!";
         document.getElementById("title-two").textContent = "Design System";
         document.getElementById("description-two").textContent = "Using photographs to create moodboards, he developed design systems with tools like Figma. These systems organize projects efficiently and facilitate collaboration. I also use tools to select color palettes and typography, ensuring effective visual communication.";
         document.getElementById("description-three").textContent = "The creation of Journey Maps is essential for effective planning, since it allows me to comprehensively analyze the actions that users must carry out and their experience during the process. With this information, I can also develop Flow Tasks and User Tasks to specifically detail the flow of each task, ensuring a clear implementation focused on user needs.";
