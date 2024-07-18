@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("principal-title-generic").textContent = "My Portfolio";
         document.getElementById("title-one").textContent = "How has my creative process been?";
         document.getElementById("description-one").textContent = "Over the years I have participated in different projects, not in all of them I have had the opportunity to document the processes and developments since they have been confidential, however, I would like to share some of the learnings that have helped me in my professional growth process and why I love my profession.";
-        document.getElementById("subtitle-one").textContent = "Be part of my professional history!";
+        document.getElementById("subtitle-one").textContent = "Learning will always open opportunities for you!";
         document.getElementById("title-two").textContent = "Design System";
         document.getElementById("description-two").textContent = "Using photographs to create moodboards, he developed design systems with tools like Figma. These systems organize projects efficiently and facilitate collaboration. I also use tools to select color palettes and typography, ensuring effective visual communication.";
         document.getElementById("description-three").textContent = "The creation of Journey Maps is essential for effective planning, since it allows me to comprehensively analyze the actions that users must carry out and their experience during the process. With this information, I can also develop Flow Tasks and User Tasks to specifically detail the flow of each task, ensuring a clear implementation focused on user needs.";
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("principal-title-generic").textContent = "Mi Portafolio";
         document.getElementById("title-one").textContent = "¿Cómo ha sido mi proceso creativo?";
         document.getElementById("description-one").textContent = "A través de los años he participado en diferentes proyectos, no en todos he tenido la oportunidad de documentar los procesos y desarrollos ya que han sido confidenciales, sin embargo, me gustaría compartir algunos de los aprendizajes que me han ayudado en mi proceso de crecimiento profesional y por las cuales amo mi profesión.";
-        document.getElementById("subtitle-one").textContent = "¡Sé parte de mi historia profesional!";
+        document.getElementById("subtitle-one").textContent = "¡Aprender siempre te abrirá oportunidades!";
         document.getElementById("title-two").textContent = "Sistemas de diseño";
         document.getElementById("description-two").textContent = "Utilizando fotografías para  crear moodboards, desarrolló sistemas de diseño con herramientas como Figma. Estos sistemas organizan proyectos eficientemente y facilitan la colaboración. También utilizo herramientas para seleccionar paletas de colores y tipografía, asegurando una comunicación visual efectiva.";
         document.getElementById("description-three").textContent = "La creación de Journey Maps es fundamental para una planificación efectiva, ya que me permite analizar de manera integral las acciones que los usuarios deben llevar a cabo y su experiencia durante el proceso. Con esta información, también puedo desarrollar Flow Tasks y User Tasks para detallar específicamente el flujo de cada tarea, asegurando así una implementación clara y centrada en las necesidades del usuario.";
